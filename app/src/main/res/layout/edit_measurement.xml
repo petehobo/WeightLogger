@@ -37,22 +37,22 @@
 	       <EditText android:id="@+id/muscle_mass" android:inputType="numberDecimal" style="@style/EditTableRowEditText" />
 	     </TableRow>
 	     
-	     <TableRow android:id="@+id/daily_calorie_intake_row" style="@style/EditTableRow">
-	       <ImageView android:src="@drawable/ic_daily_calorie_intake" />
-	       <TextView android:text="@string/daily_calorie_intake" style="@style/EditTableRowText" />
-	       <EditText android:id="@+id/daily_calorie_intake" android:inputType="number" style="@style/EditTableRowEditText" />
-	     </TableRow>
-	     
 	     <TableRow android:id="@+id/physique_rating_row" style="@style/EditTableRow">
 	       <ImageView android:src="@drawable/ic_physique_rating" />
 	       <TextView android:text="@string/physique_rating" style="@style/EditTableRowText" />
 	       <EditText android:id="@+id/physique_rating" android:inputType="number" style="@style/EditTableRowEditText" />
 	     </TableRow>
-	     
-	     <TableRow android:id="@+id/visceral_fat_rating_row" style="@style/EditTableRow">
-	       <ImageView android:src="@drawable/ic_visceral_fat_rating" />
-	       <TextView android:text="@string/visceral_fat_rating" style="@style/EditTableRowText" />
-	       <EditText android:id="@+id/visceral_fat_rating" android:inputType="number" style="@style/EditTableRowEditText" />
+
+	     <TableRow android:id="@+id/daily_calorie_intake_row" style="@style/EditTableRow">
+	       <ImageView android:src="@drawable/ic_daily_calorie_intake" />
+	       <TextView android:text="@string/daily_calorie_intake" style="@style/EditTableRowText" />
+	       <EditText android:id="@+id/daily_calorie_intake" android:inputType="number" style="@style/EditTableRowEditText" />
+	     </TableRow>
+
+	     <TableRow android:id="@+id/metabolic_age_row" style="@style/EditTableRow">
+	       <ImageView android:src="@drawable/ic_metabolic_age" />
+	       <TextView android:text="@string/metabolic_age" style="@style/EditTableRowText" />
+	       <EditText android:id="@+id/metabolic_age" android:inputType="number" style="@style/EditTableRowEditText" />
 	     </TableRow>
 	
 	     <TableRow android:id="@+id/bone_mass_row" style="@style/EditTableRow">
@@ -61,11 +61,11 @@
 	       <EditText android:id="@+id/bone_mass" android:inputType="numberDecimal" style="@style/EditTableRowEditText" />
 	     </TableRow>
 	     
-	     <TableRow android:id="@+id/metabolic_age_row" style="@style/EditTableRow">
-	       <ImageView android:src="@drawable/ic_metabolic_age" />
-	       <TextView android:text="@string/metabolic_age" style="@style/EditTableRowText" />
-	       <EditText android:id="@+id/metabolic_age" android:inputType="number" style="@style/EditTableRowEditText" />
-	     </TableRow> 
+	     <TableRow android:id="@+id/visceral_fat_rating_row" style="@style/EditTableRow">
+	       <ImageView android:src="@drawable/ic_visceral_fat_rating" />
+	       <TextView android:text="@string/visceral_fat_rating" style="@style/EditTableRowText" />
+	       <EditText android:id="@+id/visceral_fat_rating" android:inputType="number" style="@style/EditTableRowEditText" />
+	     </TableRow>
 	
        <TableRow android:id="@+id/exported_row" style="@style/EditTableRow">
          <ImageView android:src="@drawable/ic_fit" />
